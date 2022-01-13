@@ -17,15 +17,6 @@ export const GithubProvider = ({ children }) => {
   //set loading
   const setLoading = () => dispatch({ type: "SET_LOADING" });
 
-  //get initial user testing purpose
-  //   const fetchUsers = async () => {
-  //     setLoading();
-  //     const response = await fetch(`${GITHUB_URL}/users`, {
-  //       headers: {
-  //         Authorization: `token ${GITHUB_TOKEN}`,
-  //       },
-  //     });
-  //get initial user testing purpose
   const searchUsers = async (text) => {
     setLoading();
 
@@ -39,7 +30,7 @@ export const GithubProvider = ({ children }) => {
       },
     });
 
-    const { items } = await response.json();
+    const [items] = await response.json();
 
     dispatch({
       type: "GET_USERS",
