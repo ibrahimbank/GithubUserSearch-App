@@ -1,4 +1,4 @@
-A simple app where you can search for github users and view their profile
+#A simple app where you can search for github users and view their profile
 
 # Getting Started with Create React App
 
