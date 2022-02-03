@@ -1,3 +1,5 @@
+A simple app where you can search for github users and view their profile
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
