@@ -42,7 +42,7 @@ function User() {
   }
   return (
     <>
-      <div className="w-full mx-auto lg:w-10/12">
+      <div className="w-3/5 mx-4 lg:w-10/12">
         <div className="mb-4">
           <Link to="/" className="btn btn-ghost">
             Back To Search
@@ -50,8 +50,8 @@ function User() {
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 mb-8 md:gap-8">
-          <div className="custom-card-image mb-6 md:mb-0">
-            <div className="rounded-lg shadow-xl card image-full">
+          <div className="w-full custom-card-image mb-6 md:mb-0">
+            <div className="rounded-lg w-full shadow-xl card image-full">
               <figure>
                 <img src={avatar_url} alt="" />
               </figure>
@@ -84,7 +84,7 @@ function User() {
               </div>
             </div>
 
-            <div className="w-full rounded-lg shadow-md bg-base-100 stats">
+            <div className="w-full  rounded-lg shadow-md bg-base-100 stats">
               {location && (
                 <div className="stat">
                   <div className="stat-title text-md">Location</div>

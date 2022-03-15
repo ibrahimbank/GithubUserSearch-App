@@ -6,3 +6,9 @@
   border-radius: 0.5rem;
   opacity: 0.45;
 }
+.boo {
+  border: 1px solid red;
+}
+.foo {
+  border: 1px solid green;
+}
