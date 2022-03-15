@@ -12,3 +12,7 @@
 .foo {
   border: 1px solid green;
 }
+
+.goo {
+  border: 10px solid black;
+}
